@@ -10,10 +10,13 @@ function searchText(searchStr){
         },
         success: function(obj){
             console.log(obj);
+<<<<<<< HEAD
             $("div.resultDiv").remove();
 <<<<<<< HEAD
             for(i = 0; i < obj[1].length; i++){
 =======
+=======
+>>>>>>> origin/master
             for(i = 1; i < obj[1].length; i++){
 >>>>>>> origin/master
                 var name = obj[1][i];
