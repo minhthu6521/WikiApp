@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>WikiApp</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/wikiapp.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+   <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Wikipedia Search</h1>
+            <div class="lead">
+                <a target="_blank" id="random" href="https://en.wikipedia.org/wiki/Special:Random">Take me to random page</a>
+                <div id="searchIcon"> <span class="glyphicon glyphicon-search"></span></div>
+                <div id="searchBox">
+                    <div class="col-md-6 col-md-offset-3 input-group">
+                        <input type="text" class="form-control" placeholder="Search for..." id="searchStr">
+                        <span class="input-group-btn" id="removeButton">
+                            <button class="btn" type="button"><span class="glyphicon glyphicon-remove"></span></button>
+                        </span>
+                    </div>
+                </div>
+                <p> Enter to search</p>
+                <div id = "result"></div>
+            </div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wikiapp.js"></script>
+
+  </body>
+</html>
