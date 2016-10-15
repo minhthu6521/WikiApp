@@ -10,7 +10,8 @@ function searchText(searchStr){
         },
         success: function(obj){
             console.log(obj);
-            for(i = 1; i < obj[1].length; i++){
+            $("div.resultDiv").remove();
+            for(i = 0; i < obj[1].length; i++){
                 var name = obj[1][i];
                 var description = obj[2][i];
                 var link = obj[3][i];
