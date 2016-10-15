@@ -11,7 +11,11 @@ function searchText(searchStr){
         success: function(obj){
             console.log(obj);
             $("div.resultDiv").remove();
+<<<<<<< HEAD
             for(i = 0; i < obj[1].length; i++){
+=======
+            for(i = 1; i < obj[1].length; i++){
+>>>>>>> origin/master
                 var name = obj[1][i];
                 var description = obj[2][i];
                 var link = obj[3][i];
